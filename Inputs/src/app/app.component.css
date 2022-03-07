@@ -1,0 +1,27 @@
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form {
+    border: 2px solid black;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 300px;
+    min-height: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+label {
+    font-size: 18px;
+}
+
+.btn {
+    text-align: center;
+}
